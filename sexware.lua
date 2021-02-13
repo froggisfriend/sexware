@@ -1,9 +1,9 @@
 if not getgenv().library then
-    getgenv().library = loadstring(game:HttpGet("https://pastebin.com/raw/VVTCXaqX"))()
+    getgenv().library = loadstring(game:HttpGet("https://raw.githubusercontent.com/froggisfriend/sexware/main/VVTCXaqX.txt"))()
 end
 getgenv().collision = {cam, workspace.Ray_Ignore, workspace.Debris}
 local a = game:GetService("Players")
-local b = loadstring(game:HttpGet("https://pastebin.com/raw/bjkeLmVr"))()
+local b = loadstring(game:HttpGet("https://raw.githubusercontent.com/froggisfriend/sexware/main/skin.txt"))()
 local c = a.LocalPlayer
 local d = c:GetMouse()
 local cam = workspace.CurrentCamera
